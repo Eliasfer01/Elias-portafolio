@@ -1,27 +1,24 @@
 
-<style>
-    {`
-    div{
-        width: 100%;
-    }
-
-
-    h1 {
-        color: #000;
-        text-align: center;
-    }
-    `}
-</style>
-
-
-
-
 function FirtsComponent(){
     return(
-        <div>
-            <h1>HELLO WORD</h1>
-        </div>
-            
+        <>
+        <style>
+            {`
+            button {
+                    background-color: #000;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            `}
+        </style>
+
+        <button>About Me</button>  
+        </>
     );
 }
 

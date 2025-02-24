@@ -1,6 +1,6 @@
 
-import Hello from './componentes/button/but.tsx'
 import Nav from './componentes/nav/nav.tsx'
+import Main from './componentes/main/infor.tsx'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Hello />
+      <Main />
     </>
   )
 }

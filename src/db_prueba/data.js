@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const app = express()
 app.use(cors())
-app.use(express,json())
+app.use(express.json())
 
 const db = mysql.createConnection({
     host:'localhost',
@@ -13,6 +13,7 @@ const db = mysql.createConnection({
     password:'',
     database:'db_pruebas'
 })
+
 
 
 db.connect(err =>{
@@ -79,3 +80,9 @@ app.put('/usuarios/update/:id',(req,res) =>{
 
 })
 
+
+// Agregar el puerto
+const PORT = process.env.PORT || 3006; // Cambia el número según prefieras
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
