@@ -1,11 +1,17 @@
 
-function FirtsComponent(){
+interface HelloProps {
+    text: string;
+  }
+
+function FirtsComponent({ text }: HelloProps){
     return(
         <>
         <style>
             {`
             button {
                     background-color: #000;
+                    border-radius: 10px;
+                    width: 200px;
                     color: #fff;
                     border: none;
                     cursor: pointer;
@@ -17,7 +23,7 @@ function FirtsComponent(){
             `}
         </style>
 
-        <button>About Me</button>  
+        <button>{ text }</button>  
         </>
     );
 }

@@ -9,17 +9,19 @@ function Nav(){
       <style>
         {`
         header {
-                background-color:  #191919;
+                background-color:#26244A;
                 color: #fff;
                 padding: 10px;
                 text-align: center;
                 width: 98.5%;
+                height: 50px;
         nav {
               display: flex;
               justify-content: space-between;
-              background-color: #191919;
+              background-color: #26244A;
               color: #fff;
-              padding: 10px;
+              height: 100%;
+              width: 98.5%;
           }
         img {
               width: 100px;
@@ -27,17 +29,14 @@ function Nav(){
         `}
       </style>
 
-
       <header>
         <nav>
-          <Hello />
-          <h3>Elias Ferrnandez</h3>
-          <Hello />
-          <Hello />
+          <Hello text="Inicio" />
+          <Hello text="Servicios" />
+          <Hello text="Contacto" />
+          <Hello  text="Acerca de"/>
         </nav>
       </header>
-
-
 
     </>
     )

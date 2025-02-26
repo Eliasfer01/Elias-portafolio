@@ -1,7 +1,7 @@
  #root {
-  background-color: #f0f0f0;
+  background-color: #EEEEEE;
   margin: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,5 +11,5 @@
 #web{
   background-color: aqua;
   width: 1250px;
-  
+  height: 100%;
 }
