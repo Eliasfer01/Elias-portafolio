@@ -1,6 +1,7 @@
 
 import Saludo from "../inico_web/saludo.tsx";
 import Proyectos from "../proyectos/proyectos.tsx";
+import Experi from "../experiencia/experi.tsx";
 
 
  function Main() {
@@ -34,13 +35,7 @@ import Proyectos from "../proyectos/proyectos.tsx";
 
                 <Saludo />
                 <Proyectos />
-                <div>
-                    <h1>Experiencia</h1>
-                    <div>
-                        <h3>Empresa 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi error, iste, exercitationem voluptatum perspici</p>
-                    </div>
-                </div>
+                <Experi />
 
                 <div>
                     <h1>Estudios</h1>

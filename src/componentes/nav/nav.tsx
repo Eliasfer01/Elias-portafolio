@@ -49,14 +49,14 @@ function Nav(){
 
       <header>
         <nav>
-          <div className='nav_nem'>Elias</div>
-          <div className='nav_but'>
-            <Hello text="Inicio" />
-            <Hello text="Servicios" />
-            <Hello text="Contacto" />
-            <Hello  text="Acerca de"/>
-            <Hello  text="CV"/>
-          </div>
+            <div className='nav_nem'>Elias</div>
+            <div className='nav_but'>
+                <Hello text="Inicio" />
+                <Hello text="Servicios" />
+                <Hello text="Contacto" />
+                <Hello  text="Acerca de"/>
+                <Hello  text="CV"/>
+            </div>
         </nav>
       </header>
 

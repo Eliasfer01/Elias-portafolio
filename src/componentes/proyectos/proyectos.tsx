@@ -22,14 +22,22 @@ function Proyectos() {
                         }
                     
                         .img_caja{
+                            background-color: #fff;
                             width: 50%;
-                            height: 125px;
+                            height: 250px;
                             display: flex;
                             justify-content: center;
                             align-items: center
+                            margin: 5px;
                             }
 
+                        .img_caja img{
+                            width: 200px;
+                            height: 200px;
+                            }
+                        
                         .contenido{
+                            margin: 5px;
                             width: 50%;
                             height: 125px;
                             
@@ -45,7 +53,7 @@ function Proyectos() {
                             padding: 5px;
                         }
 
-                         .name{
+                         .name_pro{
                             color: #0075FF;
                         }
 
@@ -69,7 +77,7 @@ function Proyectos() {
                             <img src="./img/relajado.jpg" alt="Hombre de negocios confiado" />
                         </div>
                         <div className="contenido">
-                            <h3 className="name">Proyecto 1</h3>
+                            <h3 className="name_pro">Proyecto 1</h3>
                             <div className="tecnologias">
                                 <div>typescript</div>
                                 <div>Node</div>

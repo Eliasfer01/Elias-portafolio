@@ -1,4 +1,5 @@
 import Hello from '../button/but';
+import img from '../img/relajado.jpg';
 
 
 function Saludo() {
@@ -8,25 +9,43 @@ function Saludo() {
                         {`
 
                         .main2 {
-                                
+                                background-color: #0C101B;
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
                                 color: #fff;
                                 color: #fff;
-                                padding: 10px;
+                                padding: 1px;
                                 width: 100%;
                                 height: 400px;
                             }
 
-                        .img{
-                            width: 400px;
-                            height: 100px;
+                        .img_blok{
+                            width: 20%;
+                            height: 200px;
+                            background-color: blue;
+                            margin: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 100px;
+                            }
+
+                        .img_blok img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 100px;
                             }
                         
                         .info{
-                            width: 600px;
-                            height: 300px;
+                            width: 80%;
+                            height: 400px;
+                            font-size: 23px;
+                            }
+
+                        .info p{
+                            font-size: 20px;
+                            font-family: 'Sans-serif';
                             }
 
                         .nav_but {
@@ -36,7 +55,7 @@ function Saludo() {
                         }
                         
                         .name{
-                            color: #0075FF;
+                            color:rgb(67, 5, 252);
                         }
 
                         `}
@@ -47,18 +66,16 @@ function Saludo() {
                         <div className="info">
                             <h1><span className='name'>Hola, soy</span> Elias Fernandez.</h1>
                             <h3>Desarrollador Web</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi error, iste, exercitationem voluptatum perspiciatis eum earum corporis nihil repudiandae esse, saepe debitis eligendi quidem fugit omnis ipsum dolor est veniam!</p>
+                            <p>Mi objetivo es desarrollar soluciones digitales que marquen la diferencia. Como Analista de Análisis y Desarrollo de Software, combino mi formación académica con un enfoque práctico para crear aplicaciones web dinámicas y escalables. Me apasiona resolver problemas complejos y aportar valor a través de la tecnología. Estoy listo para asumir nuevos retos y contribuir al crecimiento de tu equipo.</p>
                             <div className="nav_but">
-                                <Hello text="Contactame" />
-                                <Hello text="Linkedin" />
-                                <Hello  text="Github"/>
+                                <Hello text="Contactame"/>
+                                <Hello text="Linkedin"/>
+                                <Hello text="Github"/>
                             </div> 
                         </div>
-
-                        <div className="img">
-                            <img src="./img/relajado.jpg" alt="Hombre de negocios confiado" />    
+                        <div className="img_blok">
+                            <img src={img} alt="Hombre de negocios confiado"/>    
                         </div>
-
                     </div>
         </>
     );
