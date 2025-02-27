@@ -11,7 +11,9 @@ function FirtsComponent({ text }: HelloProps){
             button {
                     background-color: #000;
                     border-radius: 10px;
-                    width: 200px;
+                    width: 100px;
+                    height: 30px;
+                    margin: 10px;
                     color: #fff;
                     border: none;
                     cursor: pointer;

@@ -1,5 +1,5 @@
  #root {
-  background-color: #EEEEEE;
+  background-color: #0C101B;
   margin: 0;
   width: 100%;
   display: flex;
@@ -10,6 +10,6 @@
 
 #web{
   background-color: aqua;
-  width: 1250px;
+  width: 1050px;
   height: 100%;
 }
