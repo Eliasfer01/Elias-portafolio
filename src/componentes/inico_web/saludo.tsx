@@ -1,4 +1,4 @@
-import Hello from '../button/but';
+import HOLA2 from '../button/but2';
 import img from '../img/relajado.jpg';
 
 
@@ -48,11 +48,7 @@ function Saludo() {
                             font-family: 'Sans-serif';
                             }
 
-                        .nav_but {
-                            display: flex;
-                            align-items: center;
-                            
-                        }
+                       
                         
                         .name{
                             color:rgb(67, 5, 252);
@@ -67,11 +63,7 @@ function Saludo() {
                             <h1><span className='name'>Hola, soy</span> Elias Fernandez.</h1>
                             <h3>Desarrollador Web</h3>
                             <p>Mi objetivo es desarrollar soluciones digitales que marquen la diferencia. Como Analista de Análisis y Desarrollo de Software, combino mi formación académica con un enfoque práctico para crear aplicaciones web dinámicas y escalables. Me apasiona resolver problemas complejos y aportar valor a través de la tecnología. Estoy listo para asumir nuevos retos y contribuir al crecimiento de tu equipo.</p>
-                            <div className="nav_but">
-                                <Hello text="Contactame"/>
-                                <Hello text="Linkedin"/>
-                                <Hello text="Github"/>
-                            </div> 
+                           <HOLA2></HOLA2>
                         </div>
                         <div className="img_blok">
                             <img src={img} alt="Hombre de negocios confiado"/>    

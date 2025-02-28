@@ -1,4 +1,4 @@
-
+import img2 from '../img/rickby.jpg';
 
 
 function Proyectos() {
@@ -7,7 +7,7 @@ function Proyectos() {
             <style>
                     {`
                     .proyectos{
-                        background-color:rgb(67, 5, 252);
+                        background-color:#0C101B;
                         color: #fff;
                         padding: 10px;}
 
@@ -32,8 +32,8 @@ function Proyectos() {
                             }
 
                         .img_caja img{
-                            width: 200px;
-                            height: 200px;
+                            width: 490px;
+                            height: 250px;
                             }
                         
                         .contenido{
@@ -74,7 +74,7 @@ function Proyectos() {
                     <h1>Proyectos</h1>
                     <div className="caja_pro">
                         <div className="img_caja">
-                            <img src="./img/relajado.jpg" alt="Hombre de negocios confiado" />
+                            <img src={img2} alt="Hombre de negocios confiado" />
                         </div>
                         <div className="contenido">
                             <h3 className="name_pro">Proyecto 1</h3>
