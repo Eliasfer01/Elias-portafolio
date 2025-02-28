@@ -1,4 +1,4 @@
-
+import iconos from "../iconos/iconos";
 
 function ComponenteBoton(){
     return(
@@ -24,12 +24,29 @@ function ComponenteBoton(){
                             align-items: center;
                             
                 }
+
+                .nav_but button{
+                    margin: 10px;
+                    padding: 5px;
+                    width: 15px;
+                    height: 15px;
+                    display: flex;
+                    border: none;
+                    cursor: pointer;
+                }
+                
+                .nav_but button img{
+                   
+                    width: 5px;
+                    height: 5px;
+                    
+                }
             `}
         </style>
         <div className="nav_but">
-            <button><img src="" alt="" />Contáctame</button> 
-            <button><img src="" alt="" />Linkedin</button> 
-            <button><img src="" alt="" />Github</button> 
+            <div><img src="" alt="#" />Contáctame</div> 
+            <div><img src={iconos.linkedin} alt="#" />Linkedin</div> 
+            <div><img src={iconos.githup} alt="#" />Github</div> 
                                
         </div> 
         </>
