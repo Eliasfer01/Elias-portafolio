@@ -1,10 +1,11 @@
- #root {
+#root {
   background-color: #0C101B;
   margin: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 } 
 
 
@@ -12,4 +13,5 @@
   background-color: aqua;
   width: 1050px;
   height: 100%;
+  box-sizing: border-box; 
 }

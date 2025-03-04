@@ -1,35 +1,18 @@
-
+import "../../style/styleGlobal.css";
 
 function Exper() {
     return(
         <>
-        <style>
-            {`
-                .main {
-                     background-color:#0C101B;
-                     color: #fff;
-                    width: 98.5%;
-                    padding: 10px;
-                    }
-
-                .main2 {
-                        display: flex;
-                        justify-content: space-between;
-                        color: #fff;
-                        padding: 10px;
-                    }
-                    
-                .img{
-                    width: 50%;
-                    height: 50%;
-                    }
-            `}
-        </style>
-         <div>
-            <h1>Experiencia</h1>
+        <div className="experiencia">
             <div>
-                <h3>Empresa 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi error, iste, exercitationem voluptatum perspici</p>
+                <img src="#" alt="#" />
+                <h1>Experiencia Laboral</h1>
+            </div>
+            <div className="experiencia_caja">
+                <h2 className="experiencia_caja_h3">Empresa 1</h2>
+                <p className="experiencia_caja_p">Pegasus Software</p>
+                <p className="experiencia_caja_p">2024-2025</p>
+                <p className="experiencia_caja_p_contenido">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime sit quos distinctio quasi repudiandae dicta ipsa accusantium molestias tenetur, rerum earum perferendis, voluptatum corrupti minus doloribus ea, inventore laborum error?</p>
             </div>
         </div>
         </>
