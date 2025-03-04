@@ -266,7 +266,7 @@
 }
 
 .proyecto_significado{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Roboto';
     color: #fff;
     margin-left: 40px;
@@ -328,7 +328,110 @@
     z-index: 1;
 }
 
+/* contactame */
+
+.contactame_div{
+    background-color:#0C101B;
+    width: 1020px;
+    position: relative;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.contactame_div2 {
+    display: flex;
+    }
+
+.contactame_div2_1 {
+    width: 40%;
+    height: 450px;
+    }
+
+.contactame_div2_2{
+    width: 50%;
+    height: 400px;
+    }
+
+.contactame_div2_2_form{
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 10px;
+}
+
+.contactame_div2_2_form_iput{
+    display: block;
+    margin: 20px;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0C101B;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     padding: 10px;
+}
+
+.contactame_div2_2_form_iput_descrip{
+    display: block;
+    margin: 20px;
+    width: 90%;
+    height: 140px;
+    border-radius: 10px;
+    background-color: #0C101B;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 10px;
+}
+
+.contactame_div2_1_p{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.contactame_div2_1_div{
+
+        margin: 30px;
+        padding: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        background-color: #0C101B;
+        display: flex;
+        justify-content: start;
+
+    }
+
+.contactame_div2_1_div_caja_button{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.contactame_div2_1_button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0C101B;
+        color: #fff;
+        margin: 20px;
+        width: 30%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+
+
+.contactame_div2_2_form_button{
+        margin: 20px;
+        width: 90%;
+        border-radius: 10px;
+        color: #fff;
+        border: 1px solid #4305FC;
+        box-shadow: 0 0 10px #4305FC;
+    }
+
 /* Footer */
+
 .footer{
     background-color:#0C101B;
     display: flex;

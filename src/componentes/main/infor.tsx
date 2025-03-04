@@ -10,6 +10,7 @@ function Main() {
                 <componentes.Proyectos />
                 <componentes.Experiencia />
                 <componentes.Estudi />
+                <componentes.contactame />
                 <componentes.Footer />
             
             </div>

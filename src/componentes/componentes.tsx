@@ -8,6 +8,7 @@ import Nav from "../componentes/nav/nav.tsx";
 import Proyectos from "../componentes/proyectos/proyectos.tsx";
 import Estudi from "../componentes/estudi/Estudi.tsx";
 import Footer from "../componentes/footer/footer.tsx";
+import contactame from "../componentes/contactame/contacto.tsx";
 
 
 const componentes = {
@@ -20,7 +21,8 @@ const componentes = {
     Nav,
     Proyectos,
     Estudi,
-    Footer
+    Footer,
+    contactame
     }
 
 export default componentes;
