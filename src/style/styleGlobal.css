@@ -4,7 +4,7 @@
     color: #fff;
     padding: 10px;
     text-align: center;
-    width: 1040px;
+    width: 1080px;
     height: 65px;   
     display: flex; 
     position: fixed;   
@@ -20,7 +20,7 @@
     border: 2px solid #fff;
     color: #fff;
     height: 100%;
-    width: 98.5%;
+    width: 100%;
 }
 
 .div_nav{
@@ -155,10 +155,18 @@
     border: 2px solid #ffffff84;
     color: #fff;
 }
+
 .button_saludo_img{
     width: 20px;
     height: 20px;
     border-radius: 100px;
+    margin: 10px;
+}
+
+.button_saludo_img_linkedin{
+    width: 23px;
+    height: 20px;
+    border-radius: 4px;
     margin: 10px;
 }
 
@@ -290,13 +298,13 @@
     width: 1020px;
     height: 200px;
     color: #fff;
-    border-left: 1px solid #fff;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .experiencia_caja_h3{
     font-size: 30px;
     font-family: 'Roboto';
-    color: #fff;
+    color: #4305FC;
     margin-left: 40px;
 }
 
@@ -304,6 +312,14 @@
     font-size: 15px;
     font-family: 'Roboto';
     color: #fff;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.experiencia_caja_p_ano{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #4305FC;
     margin-left: 40px;
     margin-top: 10px;
 }
@@ -317,6 +333,19 @@
     width:700px;
 }
 
+.experiencia_h1_div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    width: 600px;
+}
+
+.experiencia_h1_div_texto{
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: #fff;
+}
 /* Estudio */
 
 .estudio{
@@ -326,6 +355,14 @@
     position: relative;
     margin-top: 150px;
     z-index: 1;
+}
+
+.estudio_h1_div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
 }
 
 /* contactame */
@@ -430,6 +467,13 @@
         box-shadow: 0 0 10px #4305FC;
     }
 
+.contactame_div1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
+}
 /* Footer */
 
 .footer{

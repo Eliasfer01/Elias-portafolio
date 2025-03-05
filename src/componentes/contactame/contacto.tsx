@@ -1,6 +1,6 @@
 
 import "../../style/styleGlobal.css";
-
+import icons from "../iconos/iconos.tsx";
 
 function  Contacto() {
     return(
@@ -8,7 +8,10 @@ function  Contacto() {
           
 
             <div className="contactame_div">
-                <h1>Contactame</h1>
+                <div className="contactame_div1">
+                    <img className="proyectos_h1_img" src={icons.trabajo} alt="#" />
+                    <h1>Contactame</h1>
+                </div>
                 <div className="contactame_div2">
                     <div className="contactame_div2_1">
                         <p className="contactame_div2_1_p">Si deseas ponerte en contacto conmigo, puedes hacerlo a través de los siguientes medios:</p>
